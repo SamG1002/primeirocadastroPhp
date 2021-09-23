@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+    background: #1D1B1B;
+    font-family: Arial, Helvetica, sans-serif, Times, serif;
+    user-select: none;
+  }
+  
+  .container{
+    width: 450px;
+    margin: 60px auto;
+  }
+  
+  .cadastro,
+  .dados{
+    width: 100%;
+    background: #244665;
+    float: center;
+    height: 50px;
+    line-height: 100px;
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  
+  .cadastro-form,
+  .dados-form{
+    background: #244665;
+    padding: 40px;
+    clear: both;
+    width: 100%;
+    box-sizing: border-box;
+    height: 400px;
+  }
+  .input{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    border: 2px solid #e9eaea;
+    color: #3e3e40;
+    font-size: 14px;
+    outline: none;
+    transform: all 0.5s ease;
+  }
+  .inputhm{
+    width: 100%;
+    padding: 15px;
+    background-color: transparent ;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    border: 2px solid #ec4d37;
+    color: #3e3e40;
+    font-size: 14px;
+    color: #fff;
+  }
+  label{
+    width: 100%;
+    float:right;
+    color: #fff;
+    font-size: 20px;
+    margin: 5px;
+  }
+  .input:focus{
+    border: 2px solid #ec4d37;
+  }
+  
+  .btn{
+    width: 100%;
+    background: #ec4d37;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    border: none;
+  }
+  
+  
